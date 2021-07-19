@@ -1,0 +1,664 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#all {
+  padding-left: 30pt;
+  padding-right: 30pt;
+}
+
+h1.cursoh1 {
+  margin: 0cm 0cm 0.0001pt;
+  text-align: left;
+  line-height: 150%;
+  border: none;
+  padding: 0cm;
+  font-size: 14pt;
+  font-family: Roboto, sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+h2.cursoh2 {
+  line-height: 150%;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  margin: 0cm 0cm 0.0001pt;
+  text-align: justify;
+  line-height: 150%;
+  background: #c0edf2;
+  border: none;
+  padding: 0cm;
+  font-size: 12pt;
+  text-transform: uppercase;
+}
+
+h3.cursoh3 {
+  margin: 0cm 0cm 0.0001pt;
+  line-height: 150%;
+  text-align: justify;
+  border-top: 1px solid white;
+  padding-left: 10pt;
+  font-size: 12pt;
+  font-family: Roboto, sans-serif;
+  color: #1D7E89;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 150%;
+  border-bottom: solid #1D7E89 1.5pt;
+}
+
+h4.cursoh4 {
+  line-height: 150%;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  margin: 0cm 0cm 0.0001pt;
+  text-align: justify;
+  background: #c0edf2;
+  border: none;
+  padding: 0cm;
+  font-size: 12pt;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.st0 {
+  fill: url(#a);
+}
+
+.st1 {
+  fill: #FFFFFF;
+}
+
+.st2 {
+  font-family: 'Roboto';
+}
+
+.st3 {
+  font-size: 21.3286px;
+}
+
+.cit-1 {
+  fill: #0bb78a;
+}
+
+.st00 {
+  fill: #D4D4D3;
+}
+
+.st01 {
+  fill: url(#e);
+}
+
+.st02 {
+  fill: url(#d);
+}
+
+.st03 {
+  fill: url(#c);
+}
+
+.st04 {
+  fill: url(#b);
+}
+
+.st05 {
+  fill: url(#a);
+}
+
+.st06 {
+  opacity: 0;
+  fill: #020203;
+}
+
+.st07 {
+  opacity: 0.0273;
+  fill: #020203;
+}
+
+.st08 {
+  opacity: 0.0545;
+  fill: #020203;
+}
+
+.st09 {
+  opacity: 0.0818;
+  fill: #020203;
+}
+
+.st010 {
+  opacity: 0.1091;
+  fill: #020203;
+}
+
+.st011 {
+  opacity: 0.1364;
+  fill: #020203;
+}
+
+.st012 {
+  opacity: 0.1636;
+  fill: #020203;
+}
+
+.st013 {
+  opacity: 0.1909;
+  fill: #020203;
+}
+
+.st014 {
+  opacity: 0.2182;
+  fill: #020203;
+}
+
+.st015 {
+  opacity: 0.2455;
+  fill: #020203;
+}
+
+.st016 {
+  opacity: 0.2727;
+  fill: #020203;
+}
+
+.st017 {
+  opacity: 0.3;
+  fill: #020203;
+}
+
+.st018 {
+  fill: #6D6E6E;
+}
+
+.st019 {
+  fill: #FFFFFF;
+}
+
+.st020 {
+  font-family: 'Roboto';
+}
+
+.st021 {
+  font-size: 3.6768px;
+}
+
+.stx0 {
+  fill: url(#c1);
+}
+
+.stx1 {
+  fill: #F2B132;
+}
+
+.stx2 {
+  fill: url(#b1);
+}
+
+.stx3 {
+  fill: #EDF0EE;
+}
+
+.stx4 {
+  opacity: 0.1;
+  fill: #010202;
+}
+
+.stx5 {
+  fill: url(#a1);
+}
+
+.stx6 {
+  fill: #FFFFFF;
+}
+
+.stx7 {
+  fill: #616160;
+}
+
+.stx8 {
+  font-family: 'Roboto';
+}
+
+.stx9 {
+  font-size: 41.7967px;
+}
+
+.stx10 {
+  fill: none;
+}
+
+.stx11 {
+  fill: #020203;
+}
+
+.stx12 {
+  font-family: 'Roboto';
+}
+
+.stx13 {
+  font-size: 16px;
+}
+
+.sty0 {
+  fill: #FFFFFF;
+  stroke: #878787;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.sty1 {
+  fill: #009E81;
+}
+
+.sty2 {
+  fill: #FFFFFF;
+}
+
+.sty3 {
+  fill: none;
+}
+
+.sty4 {
+  fill: #9C9B9B;
+}
+
+.sty5 {
+  font-family: 'Roboto';
+}
+
+.sty6 {
+  font-size: 15px;
+}
+
+.sty7 {
+  letter-spacing: 2;
+}
+
+.sty8 {
+  fill: #383737;
+}
+
+.sty9 {
+  font-family: 'Roboto';
+}
+
+.sty10 {
+  font-size: 13px;
+}
+
+p.comum {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  margin: 6pt 0cm;
+  text-indent: 35.4pt;
+  line-height: 150%;
+  text-align: justify;
+}
+
+p.Reference {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+  margin: 6pt 0cm;
+  padding-left: 120px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+p.LinkLeitura {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+  margin: 6pt 0cm;
+  padding-left: 20px;
+  line-height: 150%;
+  text-align: justify;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-top: solid #1D7E89 1.0pt;
+}
+
+p.Title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18pt;
+  margin: 6pt 0cm;
+  text-indent: 35.4pt;
+  line-height: 150%;
+  text-align: justify;
+}
+
+div.show-content {
+  text-indent: 30pt;
+  cursor: pointer;
+  height: 75px;
+  width: 75px;
+  display: table-cell;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+div.button {
+  cursor: pointer;
+  padding: 0cm 0cm 0cm 0cm;
+  margin: 0 auto;
+}
+
+div.citacao {
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+  padding: 0cm 0cm 0cm 0cm;
+  background: #dcdcdc;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+em.IconeAjust {
+  height: 100%;
+  width: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 8px;
+}
+
+em.IconeBox {
+  height: 30px;
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background: #1D7E89;
+  padding: 0 10px;
+  border-radius: 8px;
+  display: inline-block;
+  mix-blend-mode: multiply;
+  vertical-align: middle;
+  font-style: normal;
+}
+
+div.panel {
+  display: block;
+}
+</style>
+
+<p class="comum">
+    <!-- Inicio da Definicao -->
+</p>
+<div class="button" onmouseover="this.style.opacity=0.8" onmouseout="this.style.opacity=1" style="opacity: 1;">
+    <h1 class="cursoh1" value="Conteúdo" onclick="setTinyMCEIFrameHeight(1)"><svg enable-background="new 0 0 500 60" version="1.1" viewBox="0 0 500 60" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><linearGradient id="a" x1="-19.895" x2="140.2" y1="4.3192" y2="13.143" gradientUnits="userSpaceOnUse"><stop stop-color="#1EB8D1" offset=".0093541"></stop><stop stop-color="#32B18C" offset=".9508"></stop></linearGradient><path class="st0" d="M500,53.23c0,3.68-4.49,6.69-9.98,6.69H9.98C4.49,59.92,0,56.91,0,53.23V6.77c0-3.68,4.49-6.69,9.98-6.69 h480.04c5.49,0,9.98,3.01,9.98,6.69V53.23z"></path> <path class="st1" d="m66.67 52.92h-32.19c-3.54 0-6.41-2.88-6.41-6.41v-32.19c0-3.54 2.88-6.41 6.41-6.41h32.18c3.54 0 6.41 2.88 6.41 6.41v32.18c0.01 3.54-2.87 6.42-6.4 6.42zm-32.19-44.29c-3.14 0-5.69 2.55-5.69 5.69v32.18c0 3.14 2.55 5.69 5.69 5.69h32.18c3.14 0 5.69-2.55 5.69-5.69v-32.18c0-3.14-2.55-5.69-5.69-5.69h-32.18z"></path> <path class="st1" d="m65.8 17.89c-0.14-0.05-3.59-1.26-7.77-1.26-3.51 0-6.5 0.85-7.46 1.15-0.96-0.3-3.95-1.15-7.46-1.15-4.18 0-7.63 1.2-7.77 1.26-0.38 0.13-0.63 0.49-0.63 0.89v19.27c0 0.31 0.15 0.59 0.4 0.77 0.46 0.33 0.86 0.11 1.3-0.02v3.35c0 0.28 0.13 0.55 0.34 0.73 0.22 0.18 0.5 0.25 0.78 0.2l9.94-1.9c0.44 0.96 1.44 1.73 2.55 1.88 0.35 0.18 2.62 0.11 3.6-1.92 11.06 2.06 10.41 1.96 10.58 1.96 0.52 0 0.94-0.42 0.94-0.94v-3.23c0.71 0.24 1.29-0.27 1.29-0.88v-19.27c0-0.4-0.25-0.75-0.63-0.89zm-1.25 1.58v17.32c-4.53-1.21-8.82-1.13-13.03 0v-17.32c4.47-1.3 8.79-1.22 13.03 0zm-27.95 0c4.29-1.25 8.63-1.27 13.03 0v17.32c-4.27-1.14-8.55-1.2-13.03 0v-17.32zm1.7 18.85c3.16-0.67 5.92-0.68 8.86-0.15v1.15l-8.86 1.7v-2.7zm13.56 2.12c-0.73 1.28-2.59 0.88-2.82-0.5v-1.36c1.24 0.32 1.4 0.52 1.85 0.36 0.01 0 0.38-0.14 1.14-0.34v1.34c-0.01 0.17-0.1 0.36-0.17 0.5zm11.39 0.58l-9.34-1.75v-1.09c3.1-0.57 6.03-0.53 9.34 0.23v2.61z"></path> <path class="st1" d="m55.24 23.32c3.5-1.12 5.31 0.05 5.88 0.05 0.39 0 0.75-0.24 0.89-0.62 0.18-0.49-0.08-1.03-0.57-1.21-3.6-1.29-6.63-0.05-6.77-0.01-0.49 0.16-0.77 0.69-0.61 1.19 0.15 0.49 0.68 0.76 1.18 0.6z"></path> <path class="st1" d="m61.43 26.69c-3.66-1.31-6.6-0.04-6.77-0.01-0.5 0.16-0.77 0.69-0.61 1.18 0.16 0.5 0.69 0.77 1.18 0.61 0.15-0.02 2.58-1.08 5.56-0.01 0.49 0.18 1.03-0.08 1.21-0.57s-0.08-1.02-0.57-1.2z"></path> <path class="st1" d="m61.43 31.84c-3.66-1.31-6.6-0.04-6.77-0.01-0.5 0.16-0.77 0.69-0.61 1.18 0.16 0.5 0.69 0.77 1.18 0.61 0.15-0.02 2.58-1.08 5.56-0.01 0.49 0.18 1.03-0.08 1.21-0.57s-0.08-1.03-0.57-1.2z"></path> <path class="st1" d="m40.32 23.32c0.15-0.02 2.58-1.08 5.56-0.01 0.49 0.18 1.03-0.08 1.2-0.57 0.18-0.49-0.08-1.03-0.57-1.21-2.02-0.73-4.33-0.8-6.46-0.11-0.13 0.07-0.72 0.1-0.92 0.7-0.23 0.73 0.45 1.44 1.19 1.2z"></path> <path class="st1" d="m46.52 26.69c-3.66-1.31-6.6-0.04-6.77-0.01-0.5 0.16-0.77 0.69-0.61 1.18 0.16 0.5 0.69 0.77 1.18 0.61 0.15-0.02 2.58-1.08 5.56-0.01 0.49 0.18 1.03-0.08 1.21-0.57 0.17-0.49-0.08-1.02-0.57-1.2z"></path> <path class="st1" d="m46.52 31.84c-3.66-1.31-6.6-0.04-6.77-0.01-0.5 0.16-0.77 0.69-0.61 1.18 0.16 0.5 0.69 0.77 1.18 0.61 0.15-0.02 2.58-1.08 5.56-0.01 0.49 0.18 1.03-0.08 1.21-0.57 0.17-0.49-0.08-1.03-0.57-1.2z"></path> <text class="st1 st2 st3" transform="translate(85.149 37.798)">Conceito</text> </svg>        </h1>
+</div>
+<div class="panel">
+    <div style="height: 4pt;"></div>
+    <p class="comum"></p>
+    <p class="comum">O Decreto-lei 4.657, de 1942, conhecido como LINDB, antiga LICC ou Lei de Introdução ao Código Civil, se trata de uma norma não integrante do Código Civil e que visa reger a aplicação de lei em geral.</p>
+    <p class="comum">Sua função é disciplinar como devem ser interpretadas e aplicadas as normas do direito determinando sua eficácia e sua vigência, nesse sentido, elucida o doutrinador Flávio Tartuce:</p>
+    <p class="comum"></p>
+    <div class="citacao">
+        <div>“Trata-se de uma norma de sobredireito, ou seja, de uma norma jurídica que visa a regulamentar outras normas (leis sobre leis ou lex legum). O seu estudo sempre foi comum na disciplina de Direito Civil ou de Introdução ao Direito Privado, pela
+            sua posição topográfica preliminar frente ao Código Civil de 1916. A tradição inicialmente foi mantida com o Código Civil de 2002, podendo a citada norma ser encontrada, de forma inaugural, nos comentários à atual codificação privada.1 Por
+            isso, questões relativas à matéria sempre foram e continuavam sendo solicitadas nas provas de Direito Civil.”</div>
+    </div>
+    <p class="comum"></p>
+    <p class="comum">Embora seja estudada no Direito Civil, essa norma não é exclusiva do Direito Privado, por esse motivo, a Lei 12.376, de 30 de dezembro de 2010 alterou o nome Lei de Introdução ao Código Civil para Lei de Introdução às Normas do Direito Brasileiro.</p>
+    <p
+        class="comum">A LINDB é uma norma de Direito Internacional Privado, que significa que ela visa regular como será aplicada a lei brasileira ou estrangeira, acerca do Direito Internacional Privado e da LINDB os doutrinadores Pablo Stolze Gagliano e Rodolfo Pamplona
+        Filho afirmam:</p>
+        <p class="comum"></p>
+        <div class="citacao">
+            <div>“O Direito Internacional Privado, por sua vez, é o conjunto de normas internas de um país, instituídas especialmente para definir se a determinado caso se aplicará a lei local ou a lei de um Estado estrangeiro, o que é, como visto, a própria
+                finalidade da Lei de Introdução.
+                <p class="comum"></p>
+                <p class="comum">Assim, trata-se de uma norma máxima de compreensão do sistema jurídico, que, além da evidente importância para a soberania nacional, regula a vigência e a eficácia de todas as outras, trazendo critérios para os seus conflitos no tempo
+                    e espaço, bem como estabelecendo parâmetros para a interpretação normativa (art. 4º) e garantindo a eficácia global do ordenamento positivo, ao não admitir o erro de direito (art. 3º) e ao reconhecer a necessidade de preservação das
+                    situações consolidadas em que o interesse individual prevalece (art. 6º).”</p>
+            </div>
+        </div>
+        <p class="comum">Portanto podemos dizer que a LINDB é a “Lei para as Leis” em nosso ordenamento jurídico.</p>
+        <p class="comum"></p>
+</div>
+<div class="divisor" style="height: 4pt;"></div>
+<!-- Inicio da Classificacao -->
+<div class="button" onmouseover="this.style.opacity=0.8" onmouseout="this.style.opacity=1" style="opacity: 1;">
+    <h1 class="cursoh1" value="Conteúdo" onclick="setTinyMCEIFrameHeight(2)"><svg enable-background="new 0 0 500 60" version="1.1" viewBox="0 0 500 60" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <linearGradient id="a" x1="134.12" x2="365.88" y1="-108.1" y2="168.1" gradientUnits="userSpaceOnUse"> <stop stop-color="#2E5BA7" offset=".01"></stop> <stop stop-color="#3678AF" offset=".1701"></stop> <stop stop-color="#4592B1" offset=".344"></stop> <stop stop-color="#55A6AE" offset=".5132"></stop> <stop stop-color="#61B4AA" offset=".6742"></stop> <stop stop-color="#68BCA7" offset=".8236"></stop> <stop stop-color="#6BBFA6" offset=".95"></stop> </linearGradient> <path class="st0" d="M500,53.23c0,3.68-4.49,6.69-9.98,6.69H9.98C4.49,59.92,0,56.91,0,53.23V6.77c0-3.68,4.49-6.69,9.98-6.69 h480.04c5.49,0,9.98,3.01,9.98,6.69V53.23z"></path> <path class="st1" d="m66.67 52.92h-32.19c-3.54 0-6.41-2.88-6.41-6.41v-32.19c0-3.54 2.88-6.41 6.41-6.41h32.18c3.54 0 6.41 2.88 6.41 6.41v32.18c0.01 3.54-2.87 6.42-6.4 6.42zm-32.19-44.29c-3.14 0-5.69 2.55-5.69 5.69v32.18c0 3.14 2.55 5.69 5.69 5.69h32.18c3.14 0 5.69-2.55 5.69-5.69v-32.18c0-3.14-2.55-5.69-5.69-5.69h-32.18z"></path> <path class="st1" d="m42.76 40.62c1.33 0 2.39-1.12 2.39-2.43 0-1.32-1.06-2.43-2.39-2.43s-2.39 1.12-2.39 2.43 1.06 2.43 2.39 2.43zm0-3.67c0.65 0 1.2 0.57 1.2 1.24s-0.55 1.24-1.2 1.24-1.2-0.57-1.2-1.24 0.55-1.24 1.2-1.24z"></path> <path class="st1" d="m42.76 32.76c1.32 0 2.39-1.07 2.39-2.39s-1.07-2.39-2.39-2.39-2.39 1.07-2.39 2.39 1.07 2.39 2.39 2.39zm0-3.59c0.66 0 1.2 0.54 1.2 1.2s-0.54 1.2-1.2 1.2-1.2-0.54-1.2-1.2 0.54-1.2 1.2-1.2z"></path> <path class="st1" d="m42.76 24.99c1.32 0 2.39-1.07 2.39-2.39s-1.07-2.39-2.39-2.39-2.39 1.07-2.39 2.39 1.07 2.39 2.39 2.39zm0-3.59c0.66 0 1.2 0.54 1.2 1.2s-0.54 1.2-1.2 1.2-1.2-0.54-1.2-1.2 0.54-1.2 1.2-1.2z"></path> <path class="st1" d="m58.39 20.2h-9.65c-1.32 0-2.39 1.07-2.39 2.39s1.07 2.39 2.39 2.39h9.65c1.32 0 2.39-1.07 2.39-2.39s-1.07-2.39-2.39-2.39zm-10.85 2.4c0-0.66 0.54-1.2 1.2-1.2h3.67c0.66 0 1.2 0.54 1.2 1.2s-0.54 1.2-1.2 1.2h-3.67c-0.66-0.01-1.2-0.54-1.2-1.2zm10.85 1.19h-3.91c0.2-0.35 0.32-0.76 0.32-1.2s-0.12-0.84-0.32-1.2h3.91c0.66 0 1.2 0.54 1.2 1.2s-0.54 1.2-1.2 1.2z"></path> <path class="st1" d="m58.39 27.98h-9.65c-1.32 0-2.39 1.07-2.39 2.39s1.07 2.39 2.39 2.39h9.65c1.32 0 2.39-1.07 2.39-2.39s-1.07-2.39-2.39-2.39zm-10.85 2.39c0-0.66 0.54-1.2 1.2-1.2h6.06c0.66 0 1.2 0.54 1.2 1.2s-0.54 1.2-1.2 1.2h-6.06c-0.66 0-1.2-0.54-1.2-1.2zm10.85 1.2h-1.52c0.2-0.35 0.32-0.76 0.32-1.2s-0.12-0.84-0.32-1.2h1.52c0.66 0 1.2 0.54 1.2 1.2s-0.54 1.2-1.2 1.2z"></path> <path class="st1" d="m58.39 35.75h-9.65c-0.64 0-1.24 0.26-1.7 0.73-0.45 0.46-0.69 1.07-0.69 1.71s0.25 1.24 0.69 1.71c0.45 0.47 1.06 0.73 1.7 0.73h9.65c0.64 0 1.24-0.26 1.7-0.73 0.45-0.46 0.69-1.07 0.69-1.71s-0.25-1.24-0.69-1.71c-0.46-0.47-1.06-0.73-1.7-0.73zm-10.85 2.44c0-0.67 0.55-1.24 1.2-1.24h4.86c0.65 0 1.2 0.57 1.2 1.24s-0.55 1.24-1.2 1.24h-4.86c-0.65-0.01-1.2-0.57-1.2-1.24zm10.85 1.23h-2.73c0.22-0.37 0.34-0.8 0.34-1.24s-0.12-0.86-0.34-1.24h2.73c0.65 0 1.2 0.57 1.2 1.24s-0.55 1.24-1.2 1.24z"></path> <text class="st1 st2 st3" transform="translate(85.149 37.798)"> Classificação</text> </svg>        </h1>
+</div>
+<div class="panel">
+    <div style="height: 4pt;"></div>
+    <p class="comum"></p>
+    <p class="comum"></p>
+    <h3 class="cursoh3">Vigência, vigor e eficácia </h3>
+    <p class="comum"></p>
+    <p class="comum">A vigência na definição de Francisco Gabba é a qualidade impositiva da lei. Regida pelos princípios da obrigatoriedade e continuidade, acerca destes princípios vejamos a definição do doutrinador Anderson Shereiber:</p>
+    <p class="comum"></p>
+    <div class="citacao">
+        <div> “Pelo princípio da obrigatoriedade, ninguém pode se escusar da lei alegando não a conhecer: ignorantia legis neminem excusat. Assim expressamente dispõe o art. 3º da Lei de Introdução às Normas do Direito Brasileiro (Decreto-lei n. 4.657/1942),
+            muito embora se admita, como se verá no estudo dos negócios jurídicos, a figura do erro de direito37. Pelo princípio da continuidade, a lei vige até que outra lei a modifique ou a revogue (Decreto-lei n. 4.657/1942, art. 2º).” </div>
+    </div>
+    <p class="comum"></p>
+    <p class="comum">A Lei de Introdução às Normas do Direito Brasileiro trata da vigência das normas em seu primeiro e segundo artigo.</p>
+    <p class="comum">O Artigo 1° dispõem do seguinte texto em seu caput, vejamos:</p>
+    <p class="comum"></p>
+    <div class="citacao">
+        <div> “Art. 1o Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada.” </div>
+    </div>
+    <p class="comum"></p>
+    <p class="comum">O legislador trouxe no artigo primeiro o prazo de 45 dias de vacatio legis, ou seja, a lei apenas irá vigorar em território nacional após esse prazo se esgotar, salvo se o período de vacância da lei estiver previsto na própria norma, acerca desse
+        tema esclarece o doutrinador Flávio Tartuce:</p>
+    <p class="comum"></p>
+    <div class="citacao">
+        <div> “Esclarecendo, a lei passa por três fases fundamentais para que tenha validade e eficácia as de elaboração, promulgação e publicação. Depois vem o prazo de vacância, geralmente previsto na própria norma. Isso ocorreu com o Código Civil de 2002,
+            com a previsão do prazo de um ano a partir da publicação (art. 2.044 do CC/2002). De acordo com o entendimento majoritário, inclusive da jurisprudência nacional, a atual codificação privada entrou em vigor no dia 11 de janeiro de 2003, levando-se
+            em conta a contagem dia a dia.” </div>
+    </div>
+    <p class="comum"></p>
+    <p class="comum">Vale ressaltar que a lei entra em vigor no dia subsequente ao último dia do prazo mesmo que ele seja um final de semana ou feriado, ou seja, ele não será prorrogado.</p>
+    <p class="comum">O parágrafo 1° do Art. 1° trata do mesmo tipo de prazo tendo como alvo os Estados Estrangeiros que admitirem a lei brasileiro.</p>
+    <p class="comum"></p>
+    <div class="citacao">
+        <div> “§ 1o Nos Estados, estrangeiros, a obrigatoriedade da lei brasileira, quando admitida, se inicia três meses depois de oficialmente publicada.” </div>
+    </div>
+    <p class="comum"></p>
+    <p class="comum">Já o § 3° e o § 4° tratam da ocorrência da correção da lei dentro do prazo de vacância, vejamos:</p>
+    <p class="comum"></p>
+    <div class="citacao">
+        <div> “§ 3o Se, antes de entrar a lei em vigor, ocorrer nova publicação de seu texto, destinada a correção, o prazo deste artigo e dos parágrafos anteriores começará a correr da nova publicação.
+            <p class="comum">§ 4o As correções a texto de lei já em vigor consideram-se lei nova.”</p>
+        </div>
+    </div>
+    <p class="comum">Essa correção ou norma corretiva é definida por Flávio Tartuce como:</p>
+    <p class="comum"></p>
+    <div class="citacao">
+        <div> “A norma corretiva é aquela que existe para afastar equívocos importantes cometidos pelo texto legal, sendo certo que as correções do texto de lei já em vigor devem ser consideradas como lei nova.” </div>
+    </div>
+    <p class="comum"></p>
+    <p class="comum">O vigor ou força da lei, se trata da força vinculante que a norma possui, ela não necessariamente está vinculada a vigência, visto que é possível que a norma produza efeitos mesmo que após o término de sua vigência.</p>
+    <p class="comum">A eficácia da lei se refere a capacidade que a lei possui de produzir efeitos sociais e técnicos. Eficácia social é caracterizada pelo impacto que a lei de fato causa na sociedade, por exemplo, uma norma penal que venha a punir um crime de forma mais
+        severa, ela irá produzir efeitos contra o infrator, e tem como eficácia social gerar uma proteção a população. O efeito técnico tem em vista o aspecto normativo, por exemplo, se não há nenhuma outra norma que irá impedir a eficácia da lei em vigor.</p>
+    <p
+        class="comum">Avançando para o artigo 2° da LINDB nos deparamos o seguinte texto legal:</p>
+        <p class="comum"></p>
+        <div class="citacao">
+            <div> “Art. 2o Não se destinando à vigência temporária, a lei terá vigor até que outra a modifique ou revogue.
+                <p class="comum"></p>
+                <p class="comum">§ 1o A lei posterior revoga a anterior quando expressamente o declare, quando seja com ela incompatível ou quando regule inteiramente a matéria de que tratava a lei anterior.</p>
+                <p class="comum">§ 2o A lei nova, que estabeleça disposições gerais ou especiais a par das já existentes, não revoga nem modifica a lei anterior.</p>
+                <p class="comum">§ 3o Salvo disposição em contrário, a lei revogada não se restaura por ter a lei revogadora perdido a vigência.”</p>
+            </div>
+        </div>
+        <p class="comum">Esse artigo dispõe que a norma tem vigor até o momento que uma lei posterior a modifique ou revogue, elucida o doutrinador Flávio Tartuce:</p>
+        <p class="comum"></p>
+        <div class="citacao">
+            <div> “O art. 2.º da Lei de Introdução consagra o princípio da continuidade da lei, pelo qual a norma, a partir da sua entrada em vigor, tem eficácia contínua, até que outra a modifique ou revogue. Dessa forma, tem-se a regra do fim da obrigatoriedade
+                da lei, além do caso de ter a mesma vigência temporária.” </div>
+        </div>
+        <p class="comum"></p>
+        <p class="comum">O dispositivo legal trata a revogação de leis, acerca desse tema existem dois tipos de revogação:</p>
+        <p class="comum">a.&nbsp; &nbsp; A derrogação ou revogação parcial, ou seja, somente parte da lei é revogada, a outra parte permanece em vigor;</p>
+        <p class="comum">b.&nbsp; &nbsp; A ab-rogação ou revogação total, como o próprio nome diz ela faz com que a lei em sua totalidade seja suprimida.</p>
+        <p class="comum">A revogação pode ser expressa ou tácita. Quando a lei posterior explicitar a revogação de norma anterior será essa considerada uma revogação expressa. Caso a lei posterior não traga de maneira expressa a revogação do dispositivo legal anterior,
+            no entanto, apresenta uma legislação incompatível com a anterior a revogação é tácita.</p>
+        <p class="comum">É de extrema importância dizer que caso uma norma revogadora seja revogada por uma nova lei, essa não irá fazer com que a primeira norma volte a valer se não estiver explicitado no texto da lei, ou seja, não é admitido no ordenamento jurídico
+            brasileiro a repristinação de maneira automática.</p>
+        <p class="comum">Existem duas formas em que esse tipo de repristinação é admitido, caso a norma revogadora seja suspensa por liminar ou caso seja declarada inconstitucional.</p>
+        <p class="comum"></p>
+        <h3 class="cursoh3"> Interpretação </h3>
+        <p class="comum"></p>
+        <p class="comum">A interpretação tem a finalidade de definir o sentido e alcance na norma, ou seja, é trazer a norma que está no papel de maneira adequada e certeira para o caso real e não apenas a tornar clara. Tendo em vista a abrangência da interpretação normativa
+            o conhecido brocardo in claris non fit interpretativo se torna equivocado, pois mesmo com a norma sendo clara ainda caberá a interpretação. Acerca desse tema, Anderson Shereiber elucida de maneira precisa, vejamos:</p>
+        <p class="comum"></p>
+        <div class="citacao">
+            <div> “Consistindo a interpretação na atividade que busca identificar o sentido e o alcance da norma, a clareza é algo que sucede, e não que antecede, a atividade interpretativa.” </div>
+        </div>
+        <p class="comum"></p>
+        <p class="comum">A interpretação possui duas escolas diferentes, são elas:</p>
+        <p class="comum">a.&nbsp; Escola de Exegese: Atribuía ao interprete o papel de apenas explicar a lei, seus adeptos tratavam a norma jurídica como a vontade soberana do povo, assim a interpretação não poderia se afastar da literalidade do texto normativo. Essa
+            corrente teve sua origem no cenário francês com a promulgação do Code Napoléon.</p>
+        <p class="comum">b.&nbsp; Escola Histórica: Surgiu de certa forma como um contraponto ao legalismo exacerbado da Escola de Exegese. Com origem na Alemanha, os seus adeptos tratavam a norma jurídica como fruto da evolução histórico-cultural de um povo, o chamado
+            Volksgeist (espírito do povo). O pilar fundamental da Escola Histórica era a valorização de fontes que não eram oriundas do monopólio estatal, como a doutrina por exemplo.</p>
+        <p class="comum">Existem várias técnicas que auxiliam o aplicador na interpretação legal, são elas:</p>
+        <p class="comum">a.&nbsp; Literal: com sua origem histórica na Escola de Exegese, ela consiste na interpretação literal, com a análise de cada termo de maneira isolada ou sintática;</p>
+        <p class="comum">b.&nbsp; Lógico: utilizar o raciocínio lógico para análise metódica da norma, dessa forma definindo seu sentido e alcance;</p>
+        <p class="comum">c.&nbsp; &nbsp;Sistemático: análise da norma a partir do ordenamento jurídico de que é parte, relacionando-a com todas as outras com o mesmo objeto, direta ou indiretamente;</p>
+        <p class="comum">d.&nbsp; Histórico: análise da norma partindo da premissa dos seus antecedentes históricos, verificando as circunstâncias fáticas e jurídicas que lhe antecederam, bem como o próprio processo legislativo correspondente.</p>
+        <p class="comum">e.&nbsp; Finalístico ou teleológico: análise da norma tomando como parâmetro a sua finalidade declarada, adaptando-a às novas exigências sociais.</p>
+        <p class="comum">Também existem outras classificações quanto a origem e quanto aos resultados. É importante ressaltar que nenhuma dessas técnicas é superior ou inferior a outra, a LINDB atribui em seu artigo 5° uma base para a interpretação normativa.</p>
+        <p class="comum"></p>
+        <div class="citacao">
+            <div> “Art. 5o Na aplicação da lei, o juiz atenderá aos fins sociais a que ela se dirige e às exigências do bem comum.” </div>
+        </div>
+        <p class="comum"></p>
+        <p class="comum">Nos dias de hoje, a interpretação jurídica pode ser muito bem descrita nas palavras de Anderson Shereiber:</p>
+        <p class="comum"></p>
+        <div class="citacao">
+            <div> “Atualmente, há certo consenso de que a interpretação jurídica não se limita à análise servil da lei, nem se subordina exclusivamente à produção estatal, nem tampouco pode se centrar em concepções pessoais de justiça ou desconsiderar o dado
+                normativo como emanação de uma sociedade democrática e pluralista. Deve o intérprete escapar ao dogmatismo formalista, mas também ao dogmatismo sociológico.” </div>
+        </div>
+        <h3 class="cursoh3"> Integração</h3>
+        <p class="comum"></p>
+        <p class="comum">A integração, é voltada para preencher as lacunas no direito, diferente da interpretação que tem o proposito de analisar a norma já existente. Diante de uma lacuna, resta ao intérprete se utilizar da analogia, dos costumes e dos princípios gerais
+            do direito, como é descrito no artigo 4° da LINDB.</p>
+        <p class="comum"></p>
+        <div class="citacao">
+            <div> “Art. 4° Quando a lei for omissa, o juiz decidirá o caso de acordo com a analogia, os costumes e os princípios gerais de direito.”</div>
+        </div>
+        <p class="comum"></p>
+        <h3 class="cursoh3"> Analogia</h3>
+        <p></p>
+        <p class="comum">De acordo o conceito do doutrinador Flávio Tartuce:</p>
+        <p class="comum"></p>
+        <div class="citacao">
+            <div> “A analogia é a aplicação de uma norma próxima ou de um conjunto de normas próximas, não havendo uma norma prevista para um determinado caso concreto. Dessa forma, sendo omissa uma norma jurídica para um dado caso concreto, deve o aplicador
+                do direito procurar alento no próprio ordenamento jurídico, permitida a aplicação de uma norma além do seu campo inicial de atuação.” </div>
+        </div>
+        <p class="comum"></p>
+        <p class="comum">Pode-se dizer de maneira sucinta que a analogia nada mais é do que se utilizar de uma norma que fala de X em Y que não é regulado porem semelhante a X.</p>
+        <p class="comum">De acordo a doutrina, a analogia pode ser dividida em: analogia legis que é basicamente o que foi tratado acima; e a analogia iuris que é a aplicação de um conjunto de normas, no caso são extraídos elementos que possibilitam a analogia.</p>
+        <p
+            class="comum"><br></p>
+            <p class="comum"></p>
+            <h3 class="cursoh3"> Costumes</h3>
+            <p class="comum"></p>
+            <p class="comum">O costume pode ser caracterizado por uma reiterada prática que é percebida no meio social como um comportamento, o doutrinador Flávio Tartuce conceitua os costumes “como as práticas e usos reiterados com conteúdo lícito e relevância jurídica.”.</p>
+            <p
+                class="comum">A doutrina clássica os costumes três tipo, são eles:</p>
+                <p class="comum">a.&nbsp; &nbsp; Costumes segundo a lei (secundum legem) – Trata-se de subsunção e não uma integração, pois o próprio texto legal faz referência aos “bons costumes”, como o artigo 13 do CC/2002</p>
+                <p class="comum"></p>
+                <div class="citacao">
+                    <div> “Art. 13. Salvo por exigência médica, é defeso o ato de disposição do próprio corpo, quando importar diminuição permanente da integridade física, ou contrariar os bons costumes.
+                        <p class="comum"></p>
+                        <p class="comum">Parágrafo único. O ato previsto neste artigo será admitido para fins de transplante, na forma estabelecida em lei especial.” (grifos nossos);</p>
+                    </div>
+                </div>
+                <p class="comum">b.&nbsp; &nbsp; Costumes na falta da lei (praeter legem) – São aplicados quando a lei é omissa, é basicamente a aplicação propriamente dita desse sistema. Temos como exemplo o reconhecimento do cheque pré e pós datado, não há lei tratando
+                    desse tipo de pratica comercial, no entanto ela se tornou um comportamento comum, tanto que a jurisprudência reconhece o dever de indenizar quando&nbsp; o cheque é depositado antes do prazo, como é disposto na Súmula 270 do STJ “caracteriza
+                    dano moral a apresentação antecipada do cheque pré-datado”;</p>
+                <p class="comum">c.&nbsp; &nbsp; Costumes contra a lei (contra legem) – São os costumes que contrariam o dispositivo legal, mesmo em casos que a lei caiu em desuso, não há entendimento pacífico em relação a esse tipo de costume.</p>
+                <p class="comum">Vale ressaltar que a jurisprudência consolidada pode ser um componente que integre o costume, esse é chamado de costume jurisprudencial ou judiciário. Temos como exemplo as diversas sumulas e entendimentos constantes dos tribunais.</p>
+                <p
+                    class="comum"></p>
+                    <h3 class="cursoh3"> Princípios Gerais do Direito </h3>
+                    <p class="comum"></p>
+                    <p class="comum">Os princípios gerais são princípios abstratos e norteadores, dentre eles temos o Princípio do Devido Processo Legal, o Princípio do Direito de Ação, o Princípio do Contraditório e da Ampla Defesa, Princípio da Dignidade da Pessoa Humana,
+                        o próprio Artigo 5° da LINDB traz o princípio do fim social da norma, entre outros.</p>
+                    <p class="comum"></p>
+                    <h3 class="cursoh3">A Lei no Tempo</h3>
+                    <p class="comum"></p>
+                    <p class="comum">Como foi visto anteriormente, a lei ao ser publicada só entra em vigor após o período de vacância, atingindo todos os fatos posteriores ao início de sua aplicação, no entanto é possível que ela atinja fatos pretéritos, acerca desse
+                        tema o doutrinador Flávio Tartuce elucida:</p>
+                    <p class="comum"></p>
+                    <div class="citacao">
+                        <div> “A norma jurídica é criada para valer ao futuro, não ao passado. Entretanto, eventualmente, pode uma determinada norma atingir também os fatos pretéritos, desde que sejam respeitados os parâmetros que constam da Lei de Introdução
+                            e da Constituição Federal. Em síntese, ordinariamente, a irretroatividade é a regra, e a retroatividade, a exceção. Para que a retroatividade seja possível, como primeiro requisito, deve estar prevista em lei.”</div>
+                    </div>
+                    <p class="comum"></p>
+                    <p class="comum">O Art. 6° da LINDB dispõem do seguinte texto:</p>
+                    <p class="comum"></p>
+                    <div class="citacao">
+                        <div> “Art. 6º A Lei em vigor terá efeito imediato e geral, respeitados o ato jurídico perfeito, o direito adquirido e a coisa julgada.
+                            <p class="comum"></p>
+                            <p class="comum">§ 1º Reputa-se ato jurídico perfeito o já consumado segundo a lei vigente ao tempo em que se efetuou.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+                            <p class="comum">§ 2º Consideram-se adquiridos assim os direitos que o seu titular, ou alguém por ele, possa exercer, como aqueles cujo começo do exercício tenha termo pré-fixo, ou condição pré-estabelecida inalterável, a arbítrio de outrem.&nbsp;
+                                &nbsp;</p>
+                            <p class="comum">§ 3º Chama-se coisa julgada ou caso julgado a decisão judicial de que já não caiba recurso.”</p>
+                        </div>
+                    </div>
+                    <p class="comum">Em regra, o Direito Civil brasileiro não admite retroatividade, salvo se estiver expresso na lei e respeitar o ato jurídico perfeito, o direito adquirido e a coisa julgada. A ultratividade da norma não é totalmente vedada.</p>
+                    <p class="comum">Por fim, os atos jurídicos continuativos, ou seja, aqueles que nascem sob um determinado regime jurídico e produzem efeitos na vigência de outro, deve-se observar o art. 2.035 do CC/02. Desta maneira, a existência e validade normativa
+                        se submetem à norma da época da celebração do negócio jurídico, mas a eficácia estará submetida à nova norma. É o que ocorre, por exemplo, com o contrato celebrado na vigência do CC/16 e que produz efeitos no CC/02; a exemplo da
+                        compra de um imóvel realizada em 2000 na qual ficou pactuado que os pagamentos acontecerão até 2020. Neste caso, a existência e a validade do negócio seguirão o CC/16, enquanto os seus efeitos serão ponderados à luz do CC/02.</p>
+                    <p
+                        class="comum"></p>
+                        <h3 class="cursoh3"> A Lei no Espaço</h3>
+                        <p class="comum"></p>
+                        <p class="comum">A lei no espaço analisada em um plano interno, é basicamente o principio da territorialidade, a lei promulgada pelo município irá vigorar apenas no município, as do Estado na determinada unidade da federação e as leis publicadas
+                            pela União tem abrangência federal, tal separação interna não interessa para o Direito Civil visto que é competência da União legislar sobre o mesmo.</p>
+                        <p class="comum">Se analisarmos no plano Internacional, observamos que a regra é que a lei brasileira tem vigência em território nacional, no entanto, nos deparamos com o fenômeno da extraterritorialidade, acerca desse tema, afirma o Doutrinador
+                            Anderson Shereiber:</p>
+                        <p class="comum"></p>
+                        <div class="citacao">
+                            <div>“A imensa maioria dos ordenamentos jurídicos, contudo, faz certas concessões à aplicação, em seu território, das leis de outros países, fenômeno a que se denomina extraterritorialidade das leis. É esse o objeto da disciplina
+                                do direito internacional privado, cuja tarefa consiste em determinar qual direito deve ser aplicado para solucionar determinado conflito surgido de uma relação que percorre ou se vincula a mais de um sistema jurídico nacional.”</div>
+                        </div>
+                        <p class="comum"></p>
+                        <p class="comum">A Lei de Introdução às Normas do Direito Brasileiro ocupa-se de regular essas relações de territorialidade (Arts. 8º e 9º) e extraterritorialidade (Arts. 7º, 10, 12 e 17).</p>
+                        <p class="comum"></p>
+</div>
+<div class="divisor" style="height: 4pt;"></div>
+<!-- Inicio dos Requisitos -->
+<div class="button" onmouseover="this.style.opacity=0.8" onmouseout="this.style.opacity=1" style="opacity: 1;">
+    <h1 class="cursoh1" value="Conteúdo" onclick="setTinyMCEIFrameHeight(4)"><svg enable-background="new 0 0 500 60" version="1.1" viewBox="0 0 500 60" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><linearGradient id="a" x1="134.12" x2="365.88" y1="-108.1" y2="168.1" gradientUnits="userSpaceOnUse"><stop stop-color="#2E5BA7" offset=".01"></stop><stop stop-color="#3678AF" offset=".1701"></stop><stop stop-color="#4592B1" offset=".344"></stop><stop stop-color="#55A6AE" offset=".5132"></stop><stop stop-color="#61B4AA" offset=".6742"></stop><stop stop-color="#68BCA7" offset=".8236"></stop><stop stop-color="#6BBFA6" offset=".95"></stop></linearGradient><path class="st0" d="M500,53.23c0,3.68-4.49,6.69-9.98,6.69H9.98C4.49,59.92,0,56.91,0,53.23V6.77c0-3.68,4.49-6.69,9.98-6.69 h480.04c5.49,0,9.98,3.01,9.98,6.69V53.23z"></path><path class="st1" d="m66.67 52.92h-32.19c-3.54 0-6.41-2.88-6.41-6.41v-32.19c0-3.54 2.88-6.41 6.41-6.41h32.18c3.54 0 6.41 2.88 6.41 6.41v32.18c0.01 3.54-2.87 6.42-6.4 6.42zm-32.19-44.29c-3.14 0-5.69 2.55-5.69 5.69v32.18c0 3.14 2.55 5.69 5.69 5.69h32.18c3.14 0 5.69-2.55 5.69-5.69v-32.18c0-3.14-2.55-5.69-5.69-5.69h-32.18z"></path><path class="st1" d="m66.24 20.98c0-0.05-0.01-0.09-0.03-0.14-0.01-0.02-0.01-0.03-0.02-0.05-0.03-0.06-0.06-0.11-0.11-0.15l-6.34-6.34c-0.04-0.04-0.1-0.08-0.16-0.11-0.02-0.01-0.03-0.01-0.05-0.02-0.04-0.02-0.09-0.02-0.14-0.03h-0.03-15.84c-1.46 0-2.64 1.18-2.64 2.64v3.89c-3.63 1.6-5.98 5.2-5.98 9.17s2.34 7.57 5.98 9.17v4.2c0 1.46 1.18 2.64 2.64 2.64h20.09c1.46 0 2.64-1.18 2.64-2.64v-22.2c0-0.01-0.01-0.02-0.01-0.03zm-1.79-0.49h-4.01c-0.29 0-0.53-0.24-0.53-0.53v-4.01l4.54 4.54zm-28.48 9.36c0-2.38 0.94-4.67 2.63-6.36s3.97-2.63 6.36-2.63c0.3 0 0.6 0.01 0.89 0.04 4.09 0.4 7.38 3.53 7.98 7.6 0.07 0.45 0.11 0.9 0.11 1.35 0 1.69-0.47 3.35-1.38 4.78-0.72 1.14-1.68 2.11-2.83 2.83-2.77 1.74-6.26 1.84-9.13 0.25-2.86-1.58-4.63-4.59-4.63-7.86zm15.12 7.94c0.07-0.06 0.14-0.11 0.21-0.17 0.26-0.21 0.51-0.43 0.75-0.67s0.46-0.49 0.67-0.75c0.06-0.07 0.11-0.14 0.17-0.21 0.06-0.08 0.13-0.16 0.19-0.25l4.51 4.51c0.3 0.3 0.47 0.7 0.47 1.12s-0.17 0.82-0.47 1.12c-0.62 0.6-1.61 0.6-2.24 0l-4.51-4.5c0.09-0.07 0.17-0.14 0.25-0.2zm12.52 7.01h-20.09c-0.88 0-1.59-0.71-1.59-1.59v-3.78c0.03 0.01 0.07 0.02 0.1 0.03 0.08 0.03 0.17 0.05 0.26 0.07 0.2 0.05 0.4 0.11 0.6 0.15l0.3 0.06c0.2 0.04 0.4 0.06 0.61 0.09 0.09 0.01 0.18 0.02 0.27 0.03 0.29 0.03 0.59 0.04 0.89 0.04 1.75 0 3.46-0.46 4.98-1.33l4.67 4.67c0.66 0.72 1.65 1.02 2.6 0.78 0.94-0.24 1.68-0.97 1.92-1.92 0.24-0.94-0.06-1.94-0.78-2.6l-4.67-4.67c0.87-1.51 1.33-3.23 1.33-4.98 0-0.33-0.02-0.67-0.05-1-0.23-2.31-1.25-4.47-2.89-6.11-1.88-1.89-4.44-2.95-7.1-2.94-0.3 0-0.59 0.02-0.89 0.04-0.09 0.01-0.18 0.02-0.27 0.03-0.2 0.02-0.41 0.05-0.61 0.09l-0.3 0.06c-0.2 0.04-0.4 0.09-0.59 0.14-0.09 0.02-0.18 0.04-0.26 0.07-0.03 0.01-0.07 0.02-0.1 0.03v-3.48c0-0.88 0.71-1.59 1.59-1.59h15.33v4.76c0 0.88 0.71 1.59 1.59 1.59h4.76v21.67c-0.03 0.88-0.74 1.59-1.61 1.59z"></path><path class="st1" d="m56.74 17.84c0-0.29-0.24-0.53-0.53-0.53h-11.63c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53h11.63c0.29 0 0.53-0.24 0.53-0.53z"></path><path class="st1" d="m62.55 26.83h-6.34c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53h6.34c0.29 0 0.53-0.24 0.53-0.53s-0.24-0.53-0.53-0.53z"></path><path class="st1" d="m62.55 30h-6.34c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53h6.34c0.29 0 0.53-0.24 0.53-0.53s-0.24-0.53-0.53-0.53z"></path><path class="st1" d="m63.08 33.7c0-0.29-0.24-0.53-0.53-0.53h-6.87c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53h6.87c0.29 0 0.53-0.24 0.53-0.53z"></path><path class="st1" d="m63.08 36.87c0-0.29-0.24-0.53-0.53-0.53h-4.76c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53h4.76c0.29 0 0.53-0.24 0.53-0.53z"></path><path class="st1" d="m56.74 21.01c0-0.29-0.24-0.53-0.53-0.53h-4.23c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53h4.23c0.29 0 0.53-0.23 0.53-0.53z"></path><path class="st1" d="m63.08 24.19c0-0.29-0.24-0.53-0.53-0.53h-7.93c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53h7.93c0.29-0.01 0.53-0.24 0.53-0.53z"></path><path class="st1" d="m42.99 27.36h3.7c0.29 0 0.53-0.24 0.53-0.53s-0.24-0.53-0.53-0.53h-3.7c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53z"></path><path class="st1" d="m49.34 30c0-0.29-0.24-0.53-0.53-0.53h-7.93c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53h7.93c0.29 0 0.53-0.24 0.53-0.53z"></path><path class="st1" d="m46.69 32.64h-3.7c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53h3.7c0.29 0 0.53-0.24 0.53-0.53s-0.24-0.53-0.53-0.53z"></path><path class="st1" d="m48.72 36.82c1.29-0.69 2.36-1.72 3.08-2.99 0.04-0.07 0.09-0.14 0.13-0.22l0.06-0.12c0.08-0.15 0.16-0.31 0.23-0.47s0.12-0.31 0.18-0.46c0.02-0.04 0.04-0.09 0.05-0.13 1.34-3.91-0.54-8.19-4.33-9.85-3.79-1.65-8.21-0.12-10.16 3.53-0.61 1.15-0.93 2.43-0.93 3.73 0 2.79 1.46 5.38 3.86 6.81 2.39 1.44 5.37 1.5 7.83 0.17zm-7.06-0.94c-0.58-0.31-1.1-0.71-1.57-1.17-0.32-0.32-0.61-0.67-0.86-1.05-0.12-0.19-0.24-0.38-0.35-0.58-1.59-3-0.75-6.72 1.98-8.74s6.53-1.75 8.94 0.65c2.13 2.15 2.61 5.45 1.18 8.12-0.63 1.18-1.6 2.14-2.78 2.77-2.03 1.12-4.5 1.12-6.54 0z"></path><path class="st1" d="m63.61 39.51c-0.29 0-0.53 0.24-0.53 0.53v2.11c0 0.29-0.24 0.53-0.53 0.53h-2.11c-0.29 0-0.53 0.24-0.53 0.53s0.24 0.53 0.53 0.53h2.11c0.88 0 1.59-0.71 1.59-1.59v-2.11c0-0.29-0.24-0.53-0.53-0.53z"></path><text class="st1 st2 st3" transform="translate(85.149 37.798)"> Requisitos </text> </svg>        </h1>
+</div>
+<div class="panel">
+    <div style="height: 4pt;"></div>
+    <p class="comum"></p>
+    <p class="comum">O Decreto-lei 4.657, de 1942, vulgo a Lei de Introdução às Normas do Direito Brasileiro, sem sombra de dúvidas é uma das mais importantes leis em nosso ordenamento jurídico, pois ela se trata de uma lei criada para resolver conflitos entre legislações,
+        definir limites no tempo e no espaço além de tratar da extraterritorialidade.</p>
+    <p class="comum">Trata-se, portanto, de um pré-requisito importantíssimo para iniciar os estudos do nosso Código Civil de 2002. Também é importante destacar que a LINDB não é fundamental apenas para o Direito Civil, mas sim é uma introdução, como o próprio nome já
+        diz, para todo o ordenamento jurídico brasileiro.</p>
+    <p class="comum"></p>
+</div>
+<div class="divisor" style="height: 4pt;"></div> <svg enable-background="new 0 0 840 522" version="1.1" viewBox="0 0 840 522" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><linearGradient id="c1" x1="11.377" x2="839.45" y1="281.76" y2="281.76" gradientUnits="userSpaceOnUse"><stop stop-color="#1EB8D1" offset=".0093541"></stop><stop stop-color="#32B18C" offset=".9508"></stop></linearGradient><path class="stx0" d="m828.82 521.36h-806.82c-5.87 0-10.62-4.76-10.62-10.62v-457.95c0-5.87 4.76-10.62 10.62-10.62h806.82c5.87 0 10.62 4.76 10.62 10.62v457.95c0.01 5.86-4.75 10.62-10.62 10.62z"></path><polygon class="stx1" points="106.52 0.09 185.62 79.19 54.18 112.15"></polygon><linearGradient id="b1" x1="54.18" x2="185.62" y1="56.12" y2="56.12" gradientUnits="userSpaceOnUse"><stop stop-color="#1EB8D1" offset=".0093541"></stop><stop stop-color="#008181" offset=".9508"></stop></linearGradient><polygon class="stx2" points="106.52 0.09 185.62 79.19 54.18 112.15"></polygon><path class="stx3" d="m817.75 510.76h-806.83c-5.87 0-10.62-4.76-10.62-10.62v-457.95c0-5.87 4.76-10.62 10.62-10.62h806.82c5.87 0 10.62 4.76 10.62 10.62v457.95c0.01 5.87-4.75 10.62-10.61 10.62z"></path><path class="stx4" d="M23.72,15.77v75.57c0,14.04,11.38,25.42,25.42,25.42h38.19c14.04,0,25.42-11.38,25.42-25.42V15.77H23.72z"></path><linearGradient id="a1" x1="17.543" x2="106.56" y1="56.597" y2="56.597" gradientUnits="userSpaceOnUse"><stop stop-color="#1EB8D1" offset=".0093541"></stop><stop stop-color="#1EB8D1" offset=".9508"></stop></linearGradient><path class="stx5" d="m91.64 113.1h-59.18c-8.24 0-14.92-6.68-14.92-14.92v-98.09h89.02v98.09c0 8.24-6.68 14.92-14.92 14.92z"></path><ellipse class="stx6" transform="matrix(.1697 -.9855 .9855 .1697 -17.615 119.41)" cx="62.05" cy="70.16" rx="30.18" ry="30.18"></ellipse><text class="stx7 stx8 stx9" transform="matrix(1.002 0 0 1 125.01 94.318)">JURISPRUDÊNCIA</text><rect class="stx10" x="65.48" y="133.04" width="713.87" height="353.87"></rect><switch><foreignObject x="30" y="130" width="780" height="355" style="overflow-y: scroll;"><p class="Title"></p><div><p class="comum"></p><p class="comum">PROCESSUAL CIVIL E ADMINISTRATIVO. COMPLEMENTAÇÃO DE APOSENTADORIA. ART. 5º DA LINDB. AUSÊNCIA DE PREQUESTIONAMENTO. SÚMULA 211/STJ. PRINCÍPIOS PREVISTOS NO ART. 6º DA LINDB. DIREITO ADQUIRIDO. NATUREZA CONSTITUCIONAL. ANÁLISE DE LEI LOCAL. IMPOSSIBILIDADE. SÚMULA 280/STF. ALÍNEA "C". NÃO DEMONSTRAÇÃO DA DIVERGÊNCIA. 1. O Recurso Especial impugna acórdão publicado na vigência do CPC de 1973, sendo-lhe exigidos, pois, os requisitos de admissibilidade na forma prevista naquele código de ritos, com as interpretações dadas, até então, pela jurisprudência do Superior Tribunal de Justiça, conforme o Enunciado Administrativo 2, aprovado pelo Plenário deste Tribunal em 9.3.2016. 2. A alegação de afronta ao art. 5º da LINDB, a despeito da oposição de Embargos Declaratórios, não foi apreciada pelo Tribunal a quo. Incide a Súmula 211/STJ porque, para que se tenha por atendido o requisito do prequestionamento, é indispensável também a emissão de juízo de valor sobre a matéria. 3. É pacífica a orientação do STJ no sentido de que os princípios contidos na Lei de Introdução ao Código Civil (LINDB) - direito adquirido, ato jurídico perfeito e coisa julgada -, apesar de previstos em norma infraconstitucional, não podem ser analisados em Recurso Especial, pois são institutos de natureza eminentemente constitucional. 4. A demanda foi dirimida no acórdão recorrido com base em Direito local (Leis Estaduais 1.386/1951, 4.819/1958, 200/1974 e 6.629/1989, fls. 283-286, e-STJ). Logo, é inviável sua apreciação em Recurso Especial, em face da incidência, por analogia, da Súmula 280 do STF: "por ofensa a direito local não cabe recurso extraordinário." 5. A divergência jurisprudencial deve ser comprovada, cabendo a quem recorre demonstrar as circunstâncias que identificam ou assemelham os casos confrontados, com indicação da similitude fático-jurídica entre eles. Indispensável a transcrição de trechos do relatório e do voto dos acórdãos recorrido e paradigma, realizando-se o cotejo analítico entre ambos, com o intuito de bem caracterizar a interpretação legal divergente. O desrespeito a esses requisitos legais e regimentais (art. 541, parágrafo único, do CPC/1973, art. 1.029, § 1º, do CPC/2015 e art. 255 do RI/STJ) impede o conhecimento do Recurso Especial previsto na alínea "c" do inciso III do art. 105 da Constituição Federal. 6. Recurso Especial não conhecido.</p><p class="comum"><br></p><p class="comum">(STJ - REsp: 1727055 SP 2018/0043133-8, Relator: Ministro HERMAN BENJAMIN, Data de Julgamento: 03/04/2018, T2 - SEGUNDA TURMA, Data de Publicação: DJe 25/05/2018)</p><p class="comum"><br></p><p class="comum">PROCESSO CIVIL. AGRAVO REGIMENTAL EM ARESP. AUSÊNCIA DE VIOLAÇÃO DO ART. 535, II, DO CPC. ART. 2º, § 3º, DA LINDB. ANÁLISE DE LEI LOCAL. SÚMULA 280/STF. ART. 6º DA LINDB. MATÉRIA RESERVADA AO STF. 1. Não se reconhece a violação do art. 535 do CPC se não restar configurada no acórdão combatido a ocorrência de qualquer um dos vícios previstos no aludido artigo. 2. A análise da violação do art. 2º, § 3º, da LINDB implica, necessariamente, a análise de legislação local. Súmula 280/STF. 3. Os princípios contidos no art. 6º da LINDB, apesar de previstos em norma infraconstitucional, não podem ser analisados em recurso especial, pois são institutos de natureza eminentemente constitucional (art. 5º, XXXVI, da CF/1988). 4. Agravo regimental não provido.</p><p class="comum"><br></p><p class="comum">(STJ - AgRg no AREsp: 366328 PE 2013/0199165-7, Relator: Ministra ELIANA CALMON, Data de Julgamento: 15/10/2013, T2 - SEGUNDA TURMA, Data de Publicação: DJe 24/10/2013)</p><p class="comum"><br></p><p class="comum"></p></div></foreignObject><text x="20" y="20">O seu navegador não consegue exibir este texto</text></switch></svg>
+<script>
+    // <![CDATA[
+
+
+    var acc = document.getElementsByClassName("button");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+
+    // ]]>
+</script>
+<p class="comum"></p>
